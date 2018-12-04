@@ -19,7 +19,7 @@ namespace Senai.Teste.ArquivoTesto
             int cont = 0;
             int menu;
 
-
+            //toda vez que terminar uma fala ele pergunta se você quer criar outras
             do {
             Console.WriteLine("Deseja adicionar uma legenda? (1 = sim / 0 = não)");
             menu = int.Parse(Console.ReadLine());
@@ -38,7 +38,7 @@ namespace Senai.Teste.ArquivoTesto
                     //Console.WriteLine(tempoFinal.ToString("HH:mm:ss"));
                     string tempoF = tempoFinal.ToString("HH:mm:ss.fff");
 
-
+                    //cria e armazena as falas em um arquivo vtt
                     Console.WriteLine("Digite a fala");
                     string legenda = Console.ReadLine();
 
